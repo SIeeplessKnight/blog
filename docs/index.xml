@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>SleeplessKnight's Blog</title><link>https://SIeeplessKnight.github.io/blog/</link><description>Recent content on SleeplessKnight's Blog</description><generator>Hugo -- 0.147.4</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 11:00:00 +0000</lastBuildDate><atom:link href="https://SIeeplessKnight.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Concurrency in Go is a Mouse Nest</title><link>https://SIeeplessKnight.github.io/blog/concurrency-in-go-is-a-mouse-nest/</link><pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate><guid>https://SIeeplessKnight.github.io/blog/concurrency-in-go-is-a-mouse-nest/</guid><description>&lt;h2 id="the-mouse-nest-is-the-program">The Mouse Nest is the Program&lt;/h2>
+&lt;p>Imagine a mouse nest where mice cooperate for maximum productivity. Just as the nest is the central hub where all mouse activities are coordinated, in Go the program is the environment where all concurrent operations take place.&lt;/p>
+&lt;h2 id="forager-and-burrow-mice-are-goroutines">Forager and Burrow Mice are Goroutines&lt;/h2>
+&lt;p>Within the nest, there are forager mice who gather food, nesting materials, or other resources, and burrow mice who store and organize those resources in the nest. There are also hybrid mice who take on both roles simultaneously, however, hybrid mice aren&amp;rsquo;t as common because they can complicate coordination. In Go, these mice represent goroutines, which are lightweight threads that perform specific tasks, either sending data (like forager mice), receiving data (like burrow mice), or sending and receiving data (like hybrid mice).&lt;/p></description></item><item><title>My Optimized Routine for Simple Lower Back Health Maintenance in the Digital Age</title><link>https://SIeeplessKnight.github.io/blog/lower-back-health-in-the-digital-age/</link><pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate><guid>https://SIeeplessKnight.github.io/blog/lower-back-health-in-the-digital-age/</guid><description>&lt;h2 id="why-here">Why here?&lt;/h2>
+&lt;p>A while ago, reddit mods deleted this post because it was too helpful, so I&amp;rsquo;m posting it here.&lt;/p>
+&lt;h2 id="notes">Notes:&lt;/h2>
+&lt;ul>
+&lt;li>If you have a medical condition, seek advice from a physical therapist, not online&lt;/li>
+&lt;li>This takes ~30 minutes every three days (e.g. Mon, Thu, Sun)&lt;/li>
+&lt;li>Each stretch / exercise takes only 1 minute&lt;/li>
+&lt;li>Every stretch / exercise targets key muscle groups for lower back health&lt;/li>
+&lt;li>If you need to, reduce the hold times / increase the rest times&lt;/li>
+&lt;li>My lower back feels amazing after this; if you have any pain, stop&lt;/li>
+&lt;li>If you try it out, let me know what you think!&lt;/li>
+&lt;li>Focus on good form&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-stretch-circuit-20s-rests-2-sets">5 Stretch Circuit: 20s rests, 2 sets:&lt;/h2>
+&lt;ul>
+&lt;li>Supine spinal twist (30s left, 30s right)&lt;/li>
+&lt;li>Knee-to-chest stretch (30s left, 30s right)&lt;/li>
+&lt;li>Seated forward fold (30s forward, 15s to the left of the left foot, 15s to the right of the right foot)&lt;/li>
+&lt;li>Low lunges (30s left, 30s right)&lt;/li>
+&lt;li>Standing quadriceps stretch (30s left, 30s right)&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-exercise-circuit-30s-rests-2-sets">5 Exercise Circuit: 30s rests, 2 sets:&lt;/h2>
+&lt;ul>
+&lt;li>Isometric single-leg glute bridges (30s left, 30s right)&lt;/li>
+&lt;li>Isometric dead bugs (30s left, 30s right)&lt;/li>
+&lt;li>Isometric bird-dogs (30s left, 30s right)&lt;/li>
+&lt;li>Side planks (30s left, 30s right)&lt;/li>
+&lt;li>Isometric clam shell hold (30s left, 30s right)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="edit-videos-as-requested">Edit: Videos, as requested&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Supine spinal twist: &lt;a href="https://www.youtube.com/watch?v=ezyMaQEaVaI">https://www.youtube.com/watch?v=ezyMaQEaVaI&lt;/a>&lt;/p></description></item><item><title>Unsafe or Low-Level? Why Rust’s unsafe Misses the Mark</title><link>https://SIeeplessKnight.github.io/blog/unsafe-rust-misses-the-mark/</link><pubDate>Tue, 20 May 2025 11:00:00 +0000</pubDate><guid>https://SIeeplessKnight.github.io/blog/unsafe-rust-misses-the-mark/</guid><description>&lt;h2 id="the-intention-behind-unsafe">The Intention Behind &lt;code>unsafe&lt;/code>&lt;/h2>
+&lt;p>Rust’s &lt;code>unsafe&lt;/code> keyword separates code its safety model can guarantee from code it can’t guarantee, but as a consequence it falsely frames low-level code as unsafe, and this has language design implications.&lt;/p>
+&lt;h2 id="the-problem-with-framing-low-level-code-as-unsafe">The Problem with Framing Low-level Code as Unsafe&lt;/h2>
+&lt;p>Rust&amp;rsquo;s framing of low-level code as unsafe conceptually sidelines low-level semantics, checks and tooling. It makes writing incorrect high-level code hard, but doesn&amp;rsquo;t offer the same degree of rigor for low-level code. And even for high-level code this approach feels backwards: why make writing incorrect code hard, when you can make writing correct code easy?&lt;/p></description></item></channel></rss>

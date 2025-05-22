@@ -1,0 +1,13 @@
+baseURL = "https://SIeeplessKnight.github.io/blog/"
+languageCode = "en-us"
+title = "SleeplessKnight's Blog"
+theme = "PaperMod"
+publishDir = "docs"
+
+[params]
+  subtitle = "My Thoughts on Programming and Tech in General"
+  author = "SIeeplessKnight"
+  ShowShareButtons = true
+
+[permalinks]
+  posts = "/:slug/"
