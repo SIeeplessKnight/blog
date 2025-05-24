@@ -16,7 +16,7 @@ Within the nest, there are forager mice who gather food, nesting materials, or o
 
 ## Entrances are Typed Channels
 
-To avoid congestion, the nest has dedicated entrances: one for food, another for nesting materials, etc. In Go, these entrances are channels, and they are typed, meaning each channel handles a specific type of data (e.g., food or nesting materials). Though channels are bi-directional, they’re typically not passed as such. Channels are mostly passed as either send-only or receive-only in order to clearly define the goroutine’s role as either sender or receiver (forager mouse or burrow mouse), but sometimes bi-directional channels are necessary.
+To avoid congestion, the nest has dedicated entrances: one for food, one for nesting materials, etc. In Go, these entrances are channels, and they are typed, meaning each channel handles a specific type of data (e.g., food or nesting materials). Though channels are bi-directional, they’re typically not passed as such. Channels are mostly passed as either send-only or receive-only in order to clearly define the goroutine’s role, but sometimes sender-receiever goroutines are necessary.
 
 ## Coordination and Blocking
 
