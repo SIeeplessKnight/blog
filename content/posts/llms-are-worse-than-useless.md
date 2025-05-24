@@ -21,7 +21,7 @@ LLMs misparse even clearly structured, unambiguous, user-provided sources and bl
 LLMs are incapable of adhering to source-specific and logical constraints, even if detailed and unambiguous. They will always introduce non-source-based and illogical data. 
 
 ## Unbalanced Balance; Popularity, Quantification, and Availability Bias
-LLMs try to be balanced, even when the truth is not balanced. They reinforce dominant social trends, the biases imposes by their developers, and any data that is the easiest to acquire, quantify, and is widely available; they are incapable of drawing from or searching for anything else.
+LLMs try to be balanced, even when the truth is not balanced. They reinforce dominant social trends, the biases imposed by their developers, and any data that is the easiest to acquire, quantify, and is widely available; they are incapable of drawing from or searching for anything else.
 
 ## Convincing Deception
 LLM generated responses are often dangerously convincing, authoritative, and utterly incorrect. And LLMs will readily claim they are capable of things that they fundamentally are not capable of.
