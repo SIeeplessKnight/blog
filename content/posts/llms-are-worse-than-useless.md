@@ -28,7 +28,7 @@ LLM generated responses are often dangerously convincing, authoritative, and utt
 
 For example, when used for fact checking, they will give responses that seem superfically correct, despite the fact that they are inherently incapable of performing this task. If something is totally true or false, they will often add qualifiers like "partially," "broadly," "in some cases," "in many cases," "often," or "sometimes," and generate reasonable sounding counterpoints to maintain balance, because they have no epistemic grounding.
 
-They will also apologize for errors when corrected, and even claim to correct them, but their architecture makes them incapable of doing so. All they can do is retry until the user finds the output convincing. This makes them **unintentional but highly convincing liars**.
+They will also apologize for errors when corrected, and even claim to correct them, but their architecture makes them incapable of doing so. All they can do is retry until the user finds the output convincing. This makes them *unintentional but highly convincing liars*.
 
 ## Unsuitable for Technical Precision or Data Aggregation
 Because of these flaws, LLMs are fundamentally unsuited for faithful data aggregation or anything requiring technical precision.
@@ -38,7 +38,7 @@ LLMs as a whole are tools that dilute human content with inauthentic, deceptive,
 
 ## Conclusion
 1. These flaws are not bugs, they are due to the fundamental nature of LLMs, and persist even when LLMs are augmented with tooling and up-to-date data. 
-2. LLMs will never be reliable for anything beyond generating a plausible **sounding** response to a language prompt.
+2. LLMs will never be reliable for anything beyond generating a *plausible-sounding* response to a language prompt.
 3. LLM generated prototypes will always introduce an unacceptable level of error that will waste not only your own time, but other people's time as well.
 4. LLMs are wholly inappropriate tools for the tasks they are commonly being used for today.
 5. LLMs dilute human content with soulless drivel on a mass scale.
