@@ -21,7 +21,7 @@ LLMs misparse even clearly structured, unambiguous, user-provided sources and bl
 LLMs are incapable of adhering to source-specific and logical constraints, even if detailed and unambiguous. They will always introduce non-source-based and illogical data. 
 
 ## Unbalanced Balance; Popularity, Quantification, and Availability Bias
-LLMs try to be balanced, even when the truth is not balanced. They reinforce dominant social trends, the biases imposes by their developers, and data that is easiest to acquire, quantify, and most widely available; they are incapable of drawing from or searching for anything else.
+LLMs try to be balanced, even when the truth is not balanced. They reinforce dominant social trends, the biases imposes by their developers, and any data that is the easiest to acquire, quantify, and is widely available; they are incapable of drawing from or searching for anything else.
 
 ## Convincing Deception
 LLM generated responses are often dangerously convincing, authoritative, and utterly incorrect. And LLMs will readily claim they are capable of things that they fundamentally are not capable of.
@@ -37,8 +37,8 @@ Because of these flaws, LLMs are fundamentally unsuited for faithful data aggreg
 LLMs as a whole are tools that dilute human content with inauthentic, deceptive, superficial drivel. And they do so on a mass scale. There will come a day when we really have to address the rising tide of inauthentic content, and I'm not sure how we will do it.
 
 ## Conclusion
-    1. These flaws are not bugs, they are due to the fundamental nature of LLMs, and persist even when LLMs are augmented with tooling and up-to-date data. 
-    2. LLMs will never be reliable for anything beyond generating a plausible **sounding** response to a language prompt.
-    3. LLM generated prototypes will always introduce an unacceptable level of error that will waste not only your own time, but other people's time as well.
-    4. LLMs are wholly inappropriate tools for the tasks they are commonly being used for today.
-    5. LLMs dilute human content with soulless drivel on a mass scale.
+1. These flaws are not bugs, they are due to the fundamental nature of LLMs, and persist even when LLMs are augmented with tooling and up-to-date data. 
+2. LLMs will never be reliable for anything beyond generating a plausible **sounding** response to a language prompt.
+3. LLM generated prototypes will always introduce an unacceptable level of error that will waste not only your own time, but other people's time as well.
+4. LLMs are wholly inappropriate tools for the tasks they are commonly being used for today.
+5. LLMs dilute human content with soulless drivel on a mass scale.
