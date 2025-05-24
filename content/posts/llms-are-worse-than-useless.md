@@ -36,7 +36,7 @@ Because of these flaws, LLMs are fundamentally unsuited for faithful data aggreg
 ## The Coming Inauthenticity Crisis
 LLMs as a whole are tools that dilute human content with inauthentic, deceptive, superficial drivel. And they do so on a mass scale. There will come a day when we really have to address the rising tide of inauthentic content, and I'm not sure how we will do it.
 
-## Conclusion
+## Conclusions
 1. These flaws are not bugs, they are due to the fundamental nature of LLMs, and persist even when LLMs are augmented with tooling and up-to-date data. 
 2. LLMs will never be reliable for anything beyond generating a *plausible-sounding* response to a language prompt.
 3. LLM generated prototypes will always introduce an unacceptable level of error that will waste not only your own time, but other people's time as well.
