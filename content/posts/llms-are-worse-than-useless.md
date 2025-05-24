@@ -7,7 +7,7 @@ slug: "llms-are-worse-than-useless"
 ---
 
 ## Not Grounded in Reality
-LLM responses have no epistemic grounding: they are nothing but generated statistical language patterns based on their previous training.
+LLMs have no epistemic grounding: their responses are nothing but generated statistical language patterns based on their previous training.
 
 ## Persistent Hallucinations
 LLMs persistently fabricate information — facts, code, references, etc. — even when told to cross-check their output and rely exclusively on real data.
